@@ -1,0 +1,65 @@
+﻿/* body styling */
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Main header style */
+h1 {
+    font-family: 'Bodoni MT Poster';
+    font-size: 250%;
+    font-weight:700;
+}
+
+/* main container */
+.container {
+    border: 1px solid #cecece;
+}
+
+/* main box in container */
+.container .box {
+    width: 540px;
+    display: table;
+}
+
+    /* box-row box in container */
+.container .box .box-row {
+    display: table-row;
+}
+
+ /* boxcell box container */
+.container .box .box-cell {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+}
+
+ /* cell box 1 ref */
+.container .box .box-cell.box1 {
+    background: blue;
+    color: white;
+    text-align: justify;
+}
+
+ /* cell box 2 ref*/
+.container .box .box-cell.box2 {
+    background: lightblue;
+    text-align: justify;
+}
+
+/* styling from designer changes on table or table objects*/
+.tableEdits1 {
+    font-weight: 700;
+    width: 512px;
+}
+
+/* styling from designer changes on table or table objects*/
+.tableEdits2 {
+    font-weight: 700;
+    width: 570px;
+}
+
+/* styling from designer changes on table or table objects */
+.tableEdits3 {
+    width: 217px;
+}
